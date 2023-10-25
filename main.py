@@ -79,8 +79,8 @@ def main():
         if user_input == 3:
             break
 
-    # Exit
-
+    # Exit with normal code
+    exit(0)
 
 if __name__ == "__main__":
     main()
