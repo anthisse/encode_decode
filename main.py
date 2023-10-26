@@ -1,7 +1,9 @@
+
+
 """ Encode and decode an 8-digit pin
 This is done with a Caesar cipher, rotated up by 3 for each digit"""
 
-
+# By Anthony Thisse
 # Encode a password
 def encode(unencoded_password):
     encoded_password = ""
