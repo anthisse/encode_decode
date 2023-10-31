@@ -20,7 +20,7 @@ def encode(unencoded_password):
         return ""
 
 
-# TODO Decode a password
+# Decode a password
 def decode(encoded_password):
     decoded_pass = ""
     for i in encoded_password:
