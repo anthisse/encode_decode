@@ -22,8 +22,14 @@ def encode(unencoded_password):
 
 # TODO Decode a password
 def decode(encoded_password):
-    print("Function not yet implemented.")
-    return "00000000"
+    decoded_pass = ""
+    for i in encoded_password:
+        if int(i) < 3:
+            i = int(i) + 10
+        original_digit = int(i) - 3
+        decoded_pass = decoded_pass + str(original_digit)
+
+    return decoded_pass
 
 
 # Print the menu and get the user's choice
