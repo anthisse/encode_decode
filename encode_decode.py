@@ -75,14 +75,11 @@ def main():
         if user_input == 1:
             encoded_password = encode(input("Please enter your password to encode: "))
 
-        # TODO Decode a password
+        # Decode a password
         if user_input == 2:
             decoded_password = decode(encoded_password)
             print(f"The encoded password is {encoded_password}, and the original password is {decoded_password}.")
 
-        # Exit the program with normal code
-        if user_input == 3:
-            break
     # Exit with normal code
     exit(0)
 
